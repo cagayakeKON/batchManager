@@ -1,0 +1,19 @@
+- name: ProcessOne
+  filePath: "aa"
+  logPath: "/path/to/log1"
+  description: "This API runs the first process."
+  controllerName: "process-one"
+  parameters:
+    - name: "param1"
+      type: "string"
+      description: "This is the first parameter."
+    - name: "param2"
+      type: "string"
+      description: "This is the second parameter."
+      
+- name: ProcessTwo
+  filePath: "dir"
+  logPath: "/path/to/log1"
+  description: "This API runs the first process."
+  controllerName: "process-two"
+  parameters: []
